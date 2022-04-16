@@ -2,7 +2,6 @@
   "name": "hardhat-backend",
   "version": "1.0.0",
   "description": "DAPP backend with hardhat",
-  "main": "index.js",
   "author": "@ScribbleTons",
   "license": "MIT",
   "private": true,

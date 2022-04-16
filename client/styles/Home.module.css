@@ -5,8 +5,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
-  margin: 0 auto;
-  padding: 60px;
 }
 
 .footer {
@@ -44,10 +42,6 @@
   width: 200px;
   cursor: pointer;
   margin-bottom: 2%;
-}
-
-.button:active {
-  transform: scale(0.95);
 }
 @media (max-width: 1000px) {
   .main {
