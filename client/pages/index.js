@@ -5,7 +5,7 @@ import { ethers } from "ethers";
 import { useEffect, useRef, useState } from "react";
 import { WHITELIST_CONTRACT_ADDRESS } from "../constants";
 
-import abi from "../../hardhat-backend/artifacts/contracts/Whitelist.sol/Whitelist.json";
+import abi from "../artifacts/contracts/Whitelist.sol/Whitelist.json";
 
 export default function Home() {
   // walletConnected keep track of whether the user's wallet is connected or not
