@@ -316,7 +316,7 @@ export default function Home() {
       return <button className={styles.button}>Loading...</button>;
     }
 
-    // If connected user is the owner, and presale hasnt started yet, allow them to start the presale
+    // If connected user is the owner, and presale hasn't started yet, allow them to start the presale
     if (isOwner && !presaleStarted) {
       return (
         <button className={styles.button} onClick={startPresale}>
